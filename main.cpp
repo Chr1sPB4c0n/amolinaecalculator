@@ -6,7 +6,7 @@ std::cout << "Welcome to amolinae's calculator!\n";
 std::cout << "Github repository: https://github.com/amolinae06/amolinaecalculator\n";
 std::cout << "\n";
 
-//Variables, will be used later in the code.
+//Variables will be used later in the code.
 int num1 = 0;
 int num2 = 0;
 
