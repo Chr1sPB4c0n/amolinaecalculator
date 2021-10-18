@@ -35,12 +35,13 @@ switch(option){
       std::cout << "Result of the substraction: " << num1 - num2 << "\n";
     break;
 case 3:
-      std::cout << "You chose substraction.\n";
+      std::cout << "You chose multiplication.\n";
       std::cout << "Result of the multiplication: " << num1 * num2 << "\n";
     break;
 case 4:
+      std::cout << "You chose division.\n";
         if(num1 == 0 && num2 == 0){
-            std::cout << "Mentaly ill\n";
+            std::cout << "Mentally ill\n";
         }
         else {
             std::cout << "Result of the division: " << num1 / num2 << "\n";
