@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(){
-//Welcome, screen + my Github repository.
+//Welcome screen + my Github repository.
 std::cout << "Welcome to amolinae's calculator!\n";
 std::cout << "Github repository: https://github.com/amolinae06/amolinaecalculator\n";
 std::cout << "\n";
