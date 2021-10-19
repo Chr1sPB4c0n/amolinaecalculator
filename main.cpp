@@ -50,7 +50,7 @@ case 4:
 break;
    case 5:
       std::cout << "So you have chosen... death.\n";
-      std::cout << "Result of the scientific notation: " << num1 enum2 << "\n";
+      std::cout << "Result of the scientific notation: " << num1e+num2 << "\n";
     break;
 }
 return 0;
