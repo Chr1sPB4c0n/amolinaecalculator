@@ -2,6 +2,7 @@
 
 int main(){
 //Welcome screen + my Github repository.
+std::cout << "(Modded)\n";
 std::cout << "Welcome to amolinae's calculator!\n";
 std::cout << "Github repository: https://github.com/amolinae06/amolinaecalculator\n";
 std::cout << "Gitlab repository: https://gitlab.com/amolinae06/amolinaecalculator\n";
@@ -21,7 +22,7 @@ std::cout << "Enter a number: ";
 
 //Asks the user to add or substract.
     int option = 0;
-    std::cout << "Choose what you want to do, type 1 to add, type 2 to substract, 3 to multiply and 4 to divide.\n";
+    std::cout << "Choose what you want to do, type 1 to add, type 2 to substract, 3 to multiply, 4 to divide, and 5 to die\n";
     std::cin >> option;
 
 //Calculates the final result adding or substracting the inputs.
@@ -47,6 +48,10 @@ case 4:
             std::cout << "Result of the division: " << num1 / num2 << "\n";
         }
 break;
+   case 5:
+      std::cout << "So you have chosen... death.\n";
+      std::cout << "Result of the scientific notation: " << num1 enum2 << "\n";
+    break;
 }
 return 0;
   
